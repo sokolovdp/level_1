@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "level_1"
+version = "0.1.0"
+description = "devman asyncio level 1 project"
+authors = ["dmitrii sokolov <sokolovdp@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+asyncio = "^3.4.3"
+aiohttp = "^3.7.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
