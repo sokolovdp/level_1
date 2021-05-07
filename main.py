@@ -6,8 +6,8 @@ TIC_TIMEOUTS = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7]
 STAR = '+'
 NUOVA = ':'
 SUN = '*'
-STARS_AMOUNT = 100
-MAX_ROW = 30
+STARS_AMOUNT = 150
+MAX_ROW = 25
 MAX_COL = 79
 
 
