@@ -43,7 +43,7 @@ async def fire(canvas, start_row, start_column, rows_speed=-0.3, columns_speed=0
     row, column = start_row, start_column
 
     canvas.addstr(round(row), round(column), '*')
-    await asyncio.sleep(0.1)
+    await asyncio.sleep(0.2)
 
     canvas.addstr(round(row), round(column), 'O')
     await asyncio.sleep(0.1)
@@ -59,7 +59,7 @@ async def fire(canvas, start_row, start_column, rows_speed=-0.3, columns_speed=0
 
     curses.beep()
 
-    while 0 < row < max_row and 0 < column < max_column:
+    while 1 < row < max_row and 1 < column < max_column:
         canvas.addstr(round(row), round(column), symbol)
         await asyncio.sleep(0.1)
         canvas.addstr(round(row), round(column), ' ')
